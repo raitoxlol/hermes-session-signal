@@ -1,0 +1,13 @@
+{
+  "name": "hermes-session-signal",
+  "version": "0.2.0",
+  "description": "T3 Code inspired session rows and attention navigation for Hermes Desktop",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node scripts/verify.mjs",
+    "check": "node --check desktop/plugin.js && node --check scripts/verify.mjs"
+  }
+}
