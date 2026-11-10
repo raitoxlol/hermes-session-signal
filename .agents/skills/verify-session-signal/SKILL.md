@@ -15,13 +15,13 @@ Run `node --check desktop/plugin.js`. Confirm the installed Hermes app and the s
 
 ## Drive
 
-The helper drives four saved chats using the real composer and sidebar. It holds one mock stream to observe Working and background dimming, releases it to observe real unread completion, clicks the attention strip to acknowledge it, and submits three blocking clarify requests. It toggles the plugin through Capabilities → Plugins.
+The helper drives two saved chats with the real composer and sidebar. It holds a mock turn to observe the SDK Working badge and count, switches to the idle chat, opens the working chat through the plugin's titlebar control, and releases the turn. It checks native menus and toggles the plugin through Capabilities → Plugins.
 
-See [features](features/README.md). Treat a failed or interrupted run as a failure. No production provider inference or hidden-chat counts are claimed.
+See [features](features/README.md). A failed or interrupted run is a failure. No stock-release compatibility, production inference, or hidden-chat counts are claimed.
 
 ## Evidence
 
-`evidence/verification.json` records each passed check and the overall result. Numbered full-window screenshots record the states. `07-working-sidebar.png` and `08-attention-sidebar.png` capture the actual sidebar region directly for public demo assets, excluding the transcript. Failure evidence uses `failure.png` and `failure.txt`. The current helper uses real gateway events and a local mock provider; it does not replace the renderer's session state with test setters. Review all evidence before sharing it.
+`evidence/verification.json` records the checks and result; `working.png` captures the current UI. Failure evidence uses `failure.png` and `failure.txt`. The helper uses real gateway events and local mock inference. Review evidence before sharing it.
 
 ## Cleanup
 

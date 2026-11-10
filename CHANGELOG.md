@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — 2026-11-10
+
+- Replace native DOM status detection and synthetic clicks with SDK atoms and `host.openSession`.
+- Remove native-row styling, mutation observers, and injected CSS. Hermes controls row density.
+- Defer Input/Done until a read-only SDK status API exists; retain Working labels and navigation.
+- Document runtime/durable id binding limits and the catalog installation path.
+- Re-run the installed-app verifier against the revised behavior.
+
 ## 0.2.0 — 2026-10-24
 
 First prepared public release. Builds on the earlier local prototype.

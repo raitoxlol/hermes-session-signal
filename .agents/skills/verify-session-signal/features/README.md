@@ -1,3 +1,3 @@
 # Features
 
-- [Session attention](session-attention.md) covers row geometry, status labels, attention navigation, native layouts, appearance, and disable cleanup.
+- [Session working state](session-attention.md) covers SDK Working labels, navigation, native UI preservation, and cleanup.
