@@ -1,6 +1,6 @@
 name: hermes-session-signal
-version: 0.2.0
-description: "T3 Code inspired session rows for Hermes Desktop: slim rows, quiet Working / Input / Done labels, and titlebar counts that jump to the next session needing you."
+version: 0.3.0
+description: "SDK-backed Working labels and titlebar navigation for visible Hermes Desktop sessions."
 license: MIT
 homepage: https://github.com/raitoxlol/hermes-session-signal
 tags: [desktop, sessions, sidebar, t3-code]
